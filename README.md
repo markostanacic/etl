@@ -6,3 +6,7 @@ This app runs by default on port 8080.
 
 - Shift api gradle app is generating random data for every field. Simulating work of https://my.tanda.co/api/v2/documentation#shifts-shifts-get.
 This app runs by default on port 8081.
+
+- Note: from the response provided in pdf file, it can be concluded that all objects (except shift itself) are referencing to shift via shift_id.
+Could be established relationships between ship and other table where shift_id could be foreing key to shift.
+This is not implemented but can be done.
