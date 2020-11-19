@@ -10,3 +10,5 @@ This app runs by default on port 8081.
 - Note: from the response provided in pdf file, it can be concluded that all objects (except shift itself) are referencing to shift via shift_id.
 Could be established relationships between ship and other table where shift_id could be foreing key to shift.
 This is not implemented but can be done.
+
+- Note: Changed "from" and "to" fields from award_interpretation into "start" and "end" because these words are reserved by MySql so creating a table by hibernate was failing.
